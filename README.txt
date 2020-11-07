@@ -1,0 +1,1 @@
+Acest proiect presupune implementarea unui Magazin, care contine o lista de produse si o lista de angajati. In ultimele doua clase se vor regasi Getter-ere si metode de schimbare a anumitor caracteristici, iar in cadrul Magazinului va exista posibilitatea de a adauga/sterge produse si angajati.

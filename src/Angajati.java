@@ -16,6 +16,9 @@ public class Angajati {
         this.Salariu = Salariu;
 
     }
+    public String getInfo() {
+        return "Angajatul" + this.Nume + " are functia " + this.Functie + "si salariul de " + this.Salariu + "lei";
+    }
 
 
 

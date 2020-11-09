@@ -17,5 +17,7 @@ public class Produse {
         this.cod_bare = cod_bare;
     }
 
-
+ public String getProductName() {
+        return this.nume_produs;
+    }
 }

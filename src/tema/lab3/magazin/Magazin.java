@@ -14,5 +14,12 @@ public class Magazin {
     public void AdaugaAngajat(Angajati ang) {
 	listaAngajati.add(ang);
     }
+    public void StergeProdus(String numeProdus){
+	Iterator itr = listaProduse.iterator(); 
+        while (itr.hasNext()) 
+        { 
+            if (itr.getNume()==numeProdus) 
+                itr.remove(); 
+        } 
 
 }

@@ -1,4 +1,5 @@
 package tema.lab3.magazin;
+
 import java.util.ArrayList;
 
 public class Magazin {
@@ -8,17 +9,11 @@ public class Magazin {
 
     public Magazin() {
         listaAngajati=new ArrayList<Angajati>();
+        listaProduse=new ArrayList<Produse>();
     }
 
     public void AdaugaAngajat(Angajati ang) {
 	listaAngajati.add(ang);
     }
-    public void StergeProdus(String numeProdus){
-	Iterator itr = listaProduse.iterator(); 
-        while (itr.hasNext()) 
-        { 
-            if (itr.getNume()==numeProdus) 
-                itr.remove(); 
-        } 
 
 }

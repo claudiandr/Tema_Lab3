@@ -1,5 +1,4 @@
 package tema.lab3.magazin;
-
 import java.util.ArrayList;
 
 public class Magazin {

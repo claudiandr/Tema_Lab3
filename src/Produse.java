@@ -17,6 +17,7 @@ public class Produse {
         this.cod_bare = cod_bare;
     }
 
+task2/Adaugare_ChangeMethods
 
     public String getInfo() {
         return "Produsul " + this.nume_produs + "din categoria " + this.categorie + "are codul " + this.cod_bare +
@@ -37,5 +38,8 @@ public class Produse {
     }
     public void changeBareCode(int bare_code) {
         this.cod_bare=bare_code;
+ public String getProductName() {
+        return this.nume_produs;
+master
     }
 }

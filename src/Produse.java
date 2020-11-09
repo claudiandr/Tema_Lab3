@@ -17,11 +17,7 @@ public class Produse {
         this.cod_bare = cod_bare;
     }
 
-
-    public String getInfo() {
-        return "Produsul " + this.nume_produs + "din categoria " + this.categorie + "are codul " + this.cod_bare +
-                "si pretul" + this.pret;
+ public String getProductName() {
+        return this.nume_produs;
     }
-
-
 }

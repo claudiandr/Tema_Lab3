@@ -10,4 +10,9 @@ public class Magazin {
     public Magazin() {
         listaAngajati=new ArrayList<Angajati>();
     }
+
+    public void AdaugaAngajat(Angajati ang) {
+	listaAngajati.add(ang);
+    }
+
 }
